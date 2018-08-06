@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,7 +18,31 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_background" translatesAutoresizingMaskIntoConstraints="NO" id="bgW-ZQ-wad">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_logo" translatesAutoresizingMaskIntoConstraints="NO" id="HEL-Az-gQ6">
+                                <rect key="frame" x="75" y="230" width="225" height="207"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="HEL-Az-gQ6" secondAttribute="height" multiplier="25:23" id="XuV-qx-voJ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_nyserda_logo" translatesAutoresizingMaskIntoConstraints="NO" id="u0N-AV-OLs">
+                                <rect key="frame" x="105" y="604" width="165" height="43"/>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="HEL-Az-gQ6" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="1xg-vk-wH0"/>
+                            <constraint firstItem="HEL-Az-gQ6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="Jom-1T-5d6"/>
+                            <constraint firstItem="bgW-ZQ-wad" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Kzs-In-A8s"/>
+                            <constraint firstItem="HEL-Az-gQ6" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Sh3-JW-JzR"/>
+                            <constraint firstItem="u0N-AV-OLs" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="TCE-Ey-YaL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="u0N-AV-OLs" secondAttribute="bottom" constant="20" id="lig-mV-h3O"/>
+                            <constraint firstItem="bgW-ZQ-wad" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="nm6-65-zet"/>
+                            <constraint firstAttribute="bottom" secondItem="bgW-ZQ-wad" secondAttribute="bottom" id="ttL-ZN-vIv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bgW-ZQ-wad" secondAttribute="trailing" id="w7X-1q-AnP"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -22,4 +51,9 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ic_background" width="375" height="812"/>
+        <image name="ic_logo" width="225" height="207"/>
+        <image name="ic_nyserda_logo" width="165" height="43"/>
+    </resources>
 </document>
