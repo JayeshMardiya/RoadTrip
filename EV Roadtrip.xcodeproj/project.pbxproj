@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180A32422118B17700C1D397 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180A32412118B17700C1D397 /* Home.storyboard */; };
+		180A32462118B8D600C1D397 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A32452118B8D600C1D397 /* MenuVC.swift */; };
+		180A32482118BB3600C1D397 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A32472118BB3600C1D397 /* HomeVC.swift */; };
+		180A324B2118BCF300C1D397 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A324A2118BCF300C1D397 /* ModelManager.swift */; };
+		180A324D2118BD8100C1D397 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A324C2118BD8100C1D397 /* Constants.swift */; };
 		1A64AC2221159B0900CDA504 /* GetStartedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A64AC2121159B0900CDA504 /* GetStartedVC.swift */; };
 		1A64AC2421159B4600CDA504 /* CreateProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A64AC2321159B4600CDA504 /* CreateProfileVC.swift */; };
 		1A64AC262115A42100CDA504 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A64AC252115A42100CDA504 /* ProfileVC.swift */; };
@@ -41,9 +46,15 @@
 		1AD8AF67211459080070D202 /* Karla-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD8AF63211459080070D202 /* Karla-Italic.ttf */; };
 		1AD8AF68211459080070D202 /* Karla-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD8AF64211459080070D202 /* Karla-BoldItalic.ttf */; };
 		1AD8AF69211459080070D202 /* Karla-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD8AF65211459080070D202 /* Karla-Bold.ttf */; };
+		41629DCBF51585C7A96AF69D /* Pods_EV_Roadtrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0032F65C12B56E85A45FD5 /* Pods_EV_Roadtrip.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		180A32412118B17700C1D397 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		180A32452118B8D600C1D397 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuVC.swift; path = "EV Roadtrip/ViewController/Menu/MenuVC.swift"; sourceTree = SOURCE_ROOT; };
+		180A32472118BB3600C1D397 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		180A324A2118BCF300C1D397 /* ModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		180A324C2118BD8100C1D397 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1A64AC2121159B0900CDA504 /* GetStartedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedVC.swift; sourceTree = "<group>"; };
 		1A64AC2321159B4600CDA504 /* CreateProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileVC.swift; sourceTree = "<group>"; };
 		1A64AC252115A42100CDA504 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
@@ -80,6 +91,9 @@
 		1AD8AF63211459080070D202 /* Karla-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Italic.ttf"; sourceTree = "<group>"; };
 		1AD8AF64211459080070D202 /* Karla-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-BoldItalic.ttf"; sourceTree = "<group>"; };
 		1AD8AF65211459080070D202 /* Karla-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Bold.ttf"; sourceTree = "<group>"; };
+		35A5693C93A3CE6D110D0385 /* Pods-EV Roadtrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EV Roadtrip.release.xcconfig"; path = "Pods/Target Support Files/Pods-EV Roadtrip/Pods-EV Roadtrip.release.xcconfig"; sourceTree = "<group>"; };
+		EE0032F65C12B56E85A45FD5 /* Pods_EV_Roadtrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EV_Roadtrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F562879E0F702AAB8A02FED4 /* Pods-EV Roadtrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EV Roadtrip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EV Roadtrip/Pods-EV Roadtrip.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,12 +101,110 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41629DCBF51585C7A96AF69D /* Pods_EV_Roadtrip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11D740EA6E0890F91F95C728 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE0032F65C12B56E85A45FD5 /* Pods_EV_Roadtrip.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16E6F663DCDC46D4861F7BCE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F562879E0F702AAB8A02FED4 /* Pods-EV Roadtrip.debug.xcconfig */,
+				35A5693C93A3CE6D110D0385 /* Pods-EV Roadtrip.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		180A323A2118AE7700C1D397 /* Resouce */ = {
+			isa = PBXGroup;
+			children = (
+				1AD8AF6A2114590F0070D202 /* fonts */,
+			);
+			path = Resouce;
+			sourceTree = "<group>";
+		};
+		180A323B2118AE8800C1D397 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				180A324F2118BEA900C1D397 /* Menu */,
+				180A32402118B15E00C1D397 /* Home */,
+				180A323F2118B06A00C1D397 /* GetStarted */,
+				180A323E2118B05900C1D397 /* Profile */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		180A323C2118AEAD00C1D397 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1AD8AF4D211452320070D202 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		180A323D2118AEC100C1D397 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1AD8AF51211452320070D202 /* Main.storyboard */,
+				1AD8ACF4211822E500D138CC /* Dashboard.storyboard */,
+				180A32412118B17700C1D397 /* Home.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		180A323E2118B05900C1D397 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1A64AC2321159B4600CDA504 /* CreateProfileVC.swift */,
+				1A64AC252115A42100CDA504 /* ProfileVC.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		180A323F2118B06A00C1D397 /* GetStarted */ = {
+			isa = PBXGroup;
+			children = (
+				1AD8AF4F211452320070D202 /* ViewController.swift */,
+				1A64AC2121159B0900CDA504 /* GetStartedVC.swift */,
+			);
+			path = GetStarted;
+			sourceTree = "<group>";
+		};
+		180A32402118B15E00C1D397 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				180A32472118BB3600C1D397 /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		180A32492118BCD700C1D397 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				180A324A2118BCF300C1D397 /* ModelManager.swift */,
+				180A324C2118BD8100C1D397 /* Constants.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		180A324F2118BEA900C1D397 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				180A32452118B8D600C1D397 /* MenuVC.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
 		1AD8ACC92118118300D138CC /* Karla */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +255,8 @@
 			children = (
 				1AD8AF4C211452320070D202 /* EV Roadtrip */,
 				1AD8AF4B211452320070D202 /* Products */,
+				16E6F663DCDC46D4861F7BCE /* Pods */,
+				11D740EA6E0890F91F95C728 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -157,14 +271,11 @@
 		1AD8AF4C211452320070D202 /* EV Roadtrip */ = {
 			isa = PBXGroup;
 			children = (
-				1AD8AF6A2114590F0070D202 /* fonts */,
-				1AD8AF4D211452320070D202 /* AppDelegate.swift */,
-				1A64AC2121159B0900CDA504 /* GetStartedVC.swift */,
-				1AD8AF4F211452320070D202 /* ViewController.swift */,
-				1A64AC2321159B4600CDA504 /* CreateProfileVC.swift */,
-				1A64AC252115A42100CDA504 /* ProfileVC.swift */,
-				1AD8AF51211452320070D202 /* Main.storyboard */,
-				1AD8ACF4211822E500D138CC /* Dashboard.storyboard */,
+				180A32492118BCD700C1D397 /* Utility */,
+				180A323A2118AE7700C1D397 /* Resouce */,
+				180A323C2118AEAD00C1D397 /* AppDelegate */,
+				180A323B2118AE8800C1D397 /* ViewController */,
+				180A323D2118AEC100C1D397 /* Storyboard */,
 				1AD8AF57211452340070D202 /* Assets.xcassets */,
 				1AD8AF59211452340070D202 /* LaunchScreen.storyboard */,
 				1AD8AF5C211452340070D202 /* Info.plist */,
@@ -190,9 +301,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AD8AF5F211452340070D202 /* Build configuration list for PBXNativeTarget "EV Roadtrip" */;
 			buildPhases = (
+				EC2A636D2C918188213F0E0D /* [CP] Check Pods Manifest.lock */,
 				1AD8AF46211452320070D202 /* Sources */,
 				1AD8AF47211452320070D202 /* Frameworks */,
 				1AD8AF48211452320070D202 /* Resources */,
+				7179DF7FE2981B79C500ACCE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,6 +368,7 @@
 				1AD8ACE42118119900D138CC /* Rubik-Black.ttf in Resources */,
 				1AD8AF53211452320070D202 /* Main.storyboard in Resources */,
 				1AD8ACE82118119900D138CC /* Rubik-Regular.ttf in Resources */,
+				180A32422118B17700C1D397 /* Home.storyboard in Resources */,
 				1AD8ACEA2118119900D138CC /* OpenSans-SemiBold.ttf in Resources */,
 				1AD8ACE22118119900D138CC /* Rubik-Light.ttf in Resources */,
 				1AD8ACEF2118119900D138CC /* OpenSans-Bold.ttf in Resources */,
@@ -274,14 +388,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7179DF7FE2981B79C500ACCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EV Roadtrip/Pods-EV Roadtrip-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SlideMenuControllerSwift/SlideMenuControllerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SlideMenuControllerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EV Roadtrip/Pods-EV Roadtrip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC2A636D2C918188213F0E0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EV Roadtrip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1AD8AF46211452320070D202 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1A64AC262115A42100CDA504 /* ProfileVC.swift in Sources */,
+				180A32482118BB3600C1D397 /* HomeVC.swift in Sources */,
 				1A64AC2421159B4600CDA504 /* CreateProfileVC.swift in Sources */,
 				1AD8AF56211452320070D202 /* EV_Roadtrip.xcdatamodeld in Sources */,
+				180A32462118B8D600C1D397 /* MenuVC.swift in Sources */,
+				180A324D2118BD8100C1D397 /* Constants.swift in Sources */,
+				180A324B2118BCF300C1D397 /* ModelManager.swift in Sources */,
 				1A64AC2221159B0900CDA504 /* GetStartedVC.swift in Sources */,
 				1AD8AF50211452320070D202 /* ViewController.swift in Sources */,
 				1AD8AF4E211452320070D202 /* AppDelegate.swift in Sources */,
@@ -434,6 +591,7 @@
 		};
 		1AD8AF60211452340070D202 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F562879E0F702AAB8A02FED4 /* Pods-EV Roadtrip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -454,6 +612,7 @@
 		};
 		1AD8AF61211452340070D202 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35A5693C93A3CE6D110D0385 /* Pods-EV Roadtrip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
