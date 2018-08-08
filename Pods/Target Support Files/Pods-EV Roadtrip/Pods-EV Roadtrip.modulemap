@@ -1,0 +1,6 @@
+framework module Pods_EV_Roadtrip {
+  umbrella header "Pods-EV Roadtrip-umbrella.h"
+
+  export *
+  module * { export * }
+}

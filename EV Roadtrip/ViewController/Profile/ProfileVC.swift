@@ -41,7 +41,7 @@ class ProfileVC: UIViewController {
     
     @IBAction func btnBackClicked(_ sender: UIButton) {
         
-        self.navigationController?.popViewController(animated: true)
+        model.doLoadDoctorHomeView()
     }
     
     // MARK: - Navigation -
